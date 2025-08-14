@@ -2,7 +2,7 @@
 
 Basit bir web sayfası: açılışta adınızı sorar, adınızla sizi karşılar ve anlık saati ile tarihi (Türkçe) gösterir.
 
-- [Siteye Gitmek İçin Tıklayınız]()
+- [Siteye Gitmek İçin Tıklayınız](https://ardaatprk.github.io/jssaatkarsilama/)
 
 ### Özellikler
 
