@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karşılama Ekranı</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app" class="container">
+      <div class="card">
+        <h1 id="greeting">Merhaba!</h1>
+        <div class="time">
+          <div id="clock" class="clock">00:00:00</div>
+          <div id="day" class="day">Pazartesi</div>
+        </div>
+      </div>
+    </div>
+
+    <div id="nameModal" class="modal hidden" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+      <div class="modal-content">
+        <h2 id="modalTitle">Adınız nedir?</h2>
+        <form id="nameForm">
+          <input
+            type="text"
+            id="nameInput"
+            placeholder="Adınızı girin"
+            autocomplete="name"
+            required
+          />
+          <div class="actions">
+            <button type="submit" class="btn primary">Kaydet</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
+
